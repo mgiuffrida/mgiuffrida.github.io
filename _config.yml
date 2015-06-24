@@ -1,0 +1,21 @@
+# Site settings
+title: mgiuffrida
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Development, programming, and stuff. Definitely lots of stuff.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: mgiuffrida
+github_username:  mgiuffrida
+
+# Conversion
+markdown: kramdown
+highlighter: pygments
+
+# Outputting
+timezone: UTC # Anything else doesn't treat offsets correctly.
+
+# Forced by GitHub
+safe: true
+lsi: false
+source: .
