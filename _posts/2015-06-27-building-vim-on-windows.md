@@ -37,16 +37,11 @@ or the Performance Toolkit.
 
 ## Get the source
 
-[The Vim source][vim-source] uses Mercurial, which is about 12 days younger than
-Git and is apparently used by people like Bram. Anyway, [grab Mercurial if you
-don't have it][mercurial] -- you can find Git/SVN mirrors, but they'll lag
-behind the trunk. Get the source with:
+[The Vim source][vim-source] uses Mercurial, a distributed version control
+system much like Git. [Grab Mercurial if you don't have it][mercurial] -- you
+can find Git/SVN mirrors, but they lag behind the trunk. Get the source with:
 
     hg clone https://code.google.com/p/vim/
-
-Or, if you'd prefer, download via my Git mirror:
-
-    git clone https://github.com/mgiuffrida/vim.git
 
 Downloading and applying the changes will take a couple minutes.
 
