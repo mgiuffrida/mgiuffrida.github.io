@@ -78,6 +78,8 @@ may run slightly faster. (On a 64-bit machine, you could also use the native
 amd64 toolchain if your version of VS has it, but it really doesn't make
 a difference.)
 
+If you link to a third-party library like Python, be sure you have the appropriate version (32-bit or 64-bit).
+
 [configure.cmd]: https://raw.githubusercontent.com/mgiuffrida/mgiuffrida.github.io/master/_includes/code/building-vim-on-windows/configure.cmd
 [vim-features]: http://vimdoc.sourceforge.net/htmldoc/various.html#:version
 [Make_mvc.mak]: https://code.google.com/p/vim/source/browse/src/Make_mvc.mak
