@@ -8,4 +8,4 @@ Musings. Tutorials. Opinions. Whatever.
 
 ### About me
 
-See <https://mgiuffrida.com>.
+See <http://mgiuffrida.com>.

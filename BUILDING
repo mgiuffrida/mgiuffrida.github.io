@@ -1,0 +1,10 @@
+# Prerequisites:
+
+```
+gem install bundler
+bundle install
+# wait a while, come back, troubleshoot, try again, wait some more
+```
+
+# Running
+bundle exec jekyll serve

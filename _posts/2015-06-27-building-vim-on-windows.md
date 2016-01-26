@@ -157,7 +157,7 @@ if you want a 64-bit build, or x86 otherwise:
 
 > Sharing violation
 
-Did you close Vim before running vim-copy? :wink:
+Did you close Vim before running vim-copy?
 
 #### :help content missing, runtime files not loading
 
