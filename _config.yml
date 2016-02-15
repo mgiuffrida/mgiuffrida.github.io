@@ -9,9 +9,7 @@ twitter_username: mgiuffrida
 github_username:  mgiuffrida
 
 # Conversion
-markdown: rdiscount
-rdiscount:
-  extensions: ["smart"]
+markdown: kramdown
 highlighter: pygments
 
 # Outputting

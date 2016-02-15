@@ -5,7 +5,7 @@ author: Michael Giuffrida
 #date:   2015-06-27 16:28:00
 ---
 
-> Build Vim from source natively on Windows 7, Windows 8.1, and ~~Windows 9~~
+> Build Vim from source natively on Windows 7, Windows 8.1, and <s>Windows 9</s>
 > Windows 10
 
 Realizing my version of Vim on Windows was quite stale, I decided to build it
