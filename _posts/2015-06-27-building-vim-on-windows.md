@@ -13,7 +13,8 @@ myself from source. On Windows 8.1. How hard could it be?
 
 Well, it's actually pretty easy once you have the right tools. I kept running
 into out-of-date documentation, so I'll try to keep this future-compatible by
-explaining what you need for a frustration-free experience.
+explaining what you need for a frustration-free experience. A complete
+working project is also available at [https://github.com/mgiuffrida/vim](https://github.com/mgiuffrida/vim).
 
 ## Get the tools
 
@@ -37,16 +38,11 @@ or the Performance Toolkit.
 
 ## Get the source
 
-[The Vim source][vim-source] uses Mercurial, a distributed version control
-system much like Git. [Grab Mercurial if you don't have it][mercurial] -- you
-can find Git/SVN mirrors, but they lag behind the trunk. Get the source with:
+[Vim now lives on GitHub][vim-source], so get the source with 
 
-    hg clone https://code.google.com/p/vim/
+    git clone https://github.com/vim/vim.git
 
-Downloading and applying the changes will take a couple minutes.
-
-[vim-source]: https://code.notgoogle.com/p/vim/source/checkout
-[mercurial]: https://mercurial.selenic.com/downloads
+[vim-source]: https://github.com/vim/vim
 
 ## Configure the build
 
@@ -104,7 +100,7 @@ depending on the value of `GUI`.
 ## Install Vim
 
 First, you need to copy the executables, docs, etc. to a directory named
-`vim74`. Create a script named `copy-vim.cmd` (or [downolad
+`vim74`. Create a script named `copy-vim.cmd` (or [download
 here][copy-vim.cmd]):
 
 {% highlight bat %}
