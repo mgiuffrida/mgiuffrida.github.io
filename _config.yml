@@ -10,7 +10,7 @@ github_username:  mgiuffrida
 
 # Conversion
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Outputting
 timezone: UTC # Anything else doesn't treat offsets correctly.
