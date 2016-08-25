@@ -16,7 +16,7 @@ the core "Search online and include web results" feature, which should determine
 whether Windows reports every query I search for to Bing. As you can see, the
 toggle button cannot stay off:
 
-<iframe width="2560" height="1440"
+<iframe width="853" height="480"
     src="https://www.youtube.com/embed/Att7sLTZ3LM" frameborder="0" allowfullscreen>
 </iframe>
 
