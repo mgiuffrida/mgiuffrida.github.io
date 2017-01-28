@@ -16,6 +16,8 @@ into out-of-date documentation, so I'll try to keep this future-compatible by
 explaining what you need for a frustration-free experience. A complete
 working project is also available at [https://github.com/mgiuffrida/vim](https://github.com/mgiuffrida/vim).
 
+> Instructions updated 1/28/2017 for Vim 8.0 and confirmed on Windows 10.
+
 ## Get the tools
 
 You'll want to grab a recent edition of [Visual Studio][vs] for its compilers.
@@ -25,11 +27,11 @@ Desktop or Community editions][vs-editions].
 You'll also need the Windows SDKs as they don't ship with Visual Studio anymore.
 The SDKs provide header files we need to compile.
 
-First, download the [Windows 7 SDK][sdk-7], even if you're on Windows 8.1,
-because it has a file we need. If you're using Windows 8.1, you can download the
-[Windows 8.1 SDK][sdk-8.1] as well if you like. In any case, only install the
-Windows SDK proper; you don't need to install the other stuff, like the .NET SDK
-or the Performance Toolkit.
+First, download the [Windows 7 SDK][sdk-7], even if you're on Windows 8.1/10,
+because it has a file we need. If you're using Windows 8.1/10, you can download
+the [Windows 8.1 SDK][sdk-8.1] as well if you like. In any case, only install
+the Windows SDK proper; you don't need to install the other stuff, like the
+.NET SDK or the Performance Toolkit.
 
 [vs]: https://www.visualstudio.com
 [vs-editions]: https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx
@@ -100,17 +102,17 @@ depending on the value of `GUI`.
 ## Install Vim
 
 First, you need to copy the executables, docs, etc. to a directory named
-`vim74`. Create a script named `copy-vim.cmd` (or [download
-here][copy-vim.cmd]):
+`vim80`. (The numbers should match the output of `vim --version`.) Create a
+script named `copy-vim.cmd` (or [download here][copy-vim.cmd]):
 
 {% highlight bat %}
 {% include code/building-vim-on-windows/copy-vim.cmd %}
 {% endhighlight %}
 
-`copy-vim` will place everything you need in vim74. You can stop here, if you'd
+`copy-vim` will place everything you need in vim80. You can stop here, if you'd
 like.
 
-`vim74\install.exe` will run a command-line "installer". Use the given numbers
+`vim80\install.exe` will run a command-line "installer". Use the given numbers
 to disable actions you don't want---I disabled 10 (create startup file), 14
 (context menu), and 17--19 (desktop icons). Enter `d` to perform the actions,
 and you should be all set.
@@ -158,5 +160,5 @@ Did you close Vim before running vim-copy?
 #### :help content missing, runtime files not loading
 
 If `:help` works when running Vim or gVim from the src directory (vim\src) but
-not from your vim74 location, be sure the contents of vim\runtime are being
-copied to vim74 via `copy-vim.cmd`.
+not from your vim80 location, be sure the contents of vim\runtime are being
+copied to vim80 via `copy-vim.cmd`.

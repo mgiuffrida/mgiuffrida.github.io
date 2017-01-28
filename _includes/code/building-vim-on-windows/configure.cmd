@@ -15,12 +15,11 @@ set TOOLCHAIN=x86_amd64
 :: TINY, SMALL, NORMAL, BIG or HUGE. NORMAL or above recommended
 set FEATURES=BIG
 
-:: yes for gVim, no for vim
+:: yes for gvim, no for vim
 set GUI=yes
 
-:: IDE integrations we don't need
+:: Whatever IDE integrations we don't need
 set NETBEANS=no
-set CSCOPE=no
 
 :: UTF-8 encoding
 set MBYTE=yes
