@@ -1,10 +1,10 @@
 # Site settings
-title: mgiuffrida.github.io
+title: blog.mgiuffrida.com
 email:
 description: > # this means to ignore newlines until "baseurl:"
   Programming and stuff. Definitely stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://mgiuffrida.github.io" # the base hostname & protocol for your site
+url: "http://blog.mgiuffrida.com" # the base hostname & protocol for your site
 twitter_username: mgiuffrida
 github_username:  mgiuffrida
 
