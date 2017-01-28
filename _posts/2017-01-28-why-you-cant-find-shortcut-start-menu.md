@@ -44,8 +44,8 @@ dropping it from search results.
 
 ## Add a program to Start, the right way
 
-Here's a bug-free way to add a shortcut to Start that will show up in search results. If you've already tried pinning
-the app, you need the steps in the previous section. Otherwise, it's easy:
+Here's a bug-free way to add a shortcut to Start that will show up in search results and the program list. If you've
+already tried pinning the app, you need the steps in the previous section. Otherwise, it's easy:
 
 1. Open your Start Menu directory in Explorer:  
    `%AppData%\Microsoft\Windows\Start Menu\Programs`
